@@ -11,3 +11,5 @@ To-do:
 - [ ] Multiple flags
 - [ ] Verbose error messages
 - [ ] Similarly named commands
+
+If it doesn't run, try installing rust nightly with `rustup default nightly`

@@ -6,8 +6,16 @@ use std::process::Child;
 use std::process::Command;
 use std::path::Path;
 use std::env;
+use colored::Colorize;
 
 fn main(){
+    let rustex_logo = r"______ _   _ _____ _____ _______   __
+| ___ \ | | /  ___|_   _|  ___\ \ / /
+| |_/ / | | \ `--.  | | | |__  \ V / 
+|    /| | | |`--. \ | | |  __| /   \ 
+| |\ \| |_| /\__/ / | | | |___/ /^\ \
+\_| \_|\___/\____/  \_/ \____/\/   \/";
+    println!("{}", format!("{}",rustex_logo).purple());
     loop {
         print!("> ");
         stdout().flush();
