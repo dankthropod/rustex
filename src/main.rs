@@ -17,6 +17,9 @@ fn main(){
 \_| \_|\___/\____/  \_/ \____/\/   \/";
     println!("{}", format!("{}",rustex_logo).purple());
     loop {
+        // fix this
+        // let path = env::current_dir()?;
+        // print!("{} > ",path.display());
         print!("> ");
         stdout().flush();
 
